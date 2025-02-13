@@ -1,0 +1,80 @@
+# Файлы ОС (macOS)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Spotlight файлы
+.metadata_never_index
+.noindex
+
+# Mac специфичные файлы
+Icon?
+._*
+*.swp
+
+# Файлы IDE JetBrains (PyCharm)
+.idea/
+*.iml
+
+# Среда выполнения Python
+.env
+.venv/
+env/
+ENV/
+venv/
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.dll
+
+# Логи и отладочные файлы
+*.log
+debug.log
+
+# Файлы зависимостей
+Pipfile
+Pipfile.lock
+poetry.lock
+
+
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Кэш pytest
+.cache/
+
+# Базы данных и дампы
+*.sqlite3
+*.db
+*.sqlite
+*.dump
+
+# Файлы конфигурации
+config.toml
+
+# Docker
+docker-compose.override.yml
+
+# Anaconda
+.conda/
+*.conda
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# mypy
+.mypy_cache/
+
+# coverage
+.coverage
+htmlcov/
+
+# IDE-specific
+.vscode/
+
+# Файлы macOS Trash
+.Trashes
