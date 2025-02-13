@@ -1,11 +1,9 @@
 import random
 import structlog
-from aiogram import Router, F, Bot
+from aiogram import Router, F
 from aiogram.filters import Command
 from aiogram.types import Message, InlineQuery, InlineQueryResultArticle, InputTextMessageContent, InlineKeyboardMarkup, \
     InlineKeyboardButton
-
-from fluent.runtime import FluentLocalization
 
 from keyboards.open_site import get_open_site_kb, get_pharmacy_kb, get_search_buttons
 
