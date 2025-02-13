@@ -147,7 +147,9 @@ async def cmd_site(message: Message):
 @router.message(Command("search"))
 async def cmd_site(message: Message):
     keyboard = get_search_buttons()
-    await message.answer("Пример поиска товара или аптеки", reply_markup=keyboard)
+    await message.answer("Пример поиска товара или аптеки\n\n"
+                         "Пример товара \"Кагоцел\"\n"
+                         "Пример городов аптек \"москва\" и \"новосибирск\"", reply_markup=keyboard)
 
 
 @router.inline_query()
