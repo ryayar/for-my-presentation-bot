@@ -93,6 +93,7 @@ async def cmd_owner_hello(message: Message):
         ref_code = args[1].replace("ref-", "")
 
     welcome_message = (
+        "Поддерживается ссылка формата https://t.me/ForMyPresentationBot?start=ref-101412975\n\n"
         "/site - Отправляет кнопку с сайтом в фулскрине\n\n"
         "/check_code - Отправляет код авторизации на сайте\n\n"
         "/check_bitrix_code - Отправляет код авторизации в Bitrix\n\n"
