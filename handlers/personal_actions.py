@@ -105,7 +105,7 @@ async def cmd_owner_hello(message: Message):
     if ref_code:
         welcome_message = f"🎉 Добро пожаловать!\nВаш реферальный код: <code>{ref_code}</code>\n\n" + welcome_message
 
-    await message.answer(welcome_message)
+    await message.answer(welcome_message, disable_web_page_preview=True)
 
 
 @router.message(Command("site"))
